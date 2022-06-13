@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "pyandroid"
+version = "0.1.0"
+description = "Adb communication with android device using pyusb."
+authors = ["Orekhov Arkady <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pyusb = "^1.2.1"
+
+[tool.poetry.dev-dependencies]
+mypy = "^0.961"
+black = {version = "^22.3.0", allow-prereleases = true}
+bandit = "^1.7.4"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
